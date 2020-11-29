@@ -159,12 +159,21 @@ h3{
 
 .footer .footer-header {
     font-size: large;
-    font-family: 'Roboto Slab', serif;
+    /* font-family: 'Roboto Slab', serif; */
+    text-align: left;
 }
 
 .footer ul {
     padding-inline-start: 0px;
 }
+
+.social-links{
+    text-align: left;
+}
+.social-links a{
+    padding-left: 4rem;
+}
+
 .zoom{
 transition: transform 0.4s ;
 }
