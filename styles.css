@@ -12,7 +12,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px auto;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 hr {
@@ -55,7 +55,9 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-
+h3{
+    text-align: center;
+}
 /** look into BEM naming convention for CSS **/
 
 /** lists **/
