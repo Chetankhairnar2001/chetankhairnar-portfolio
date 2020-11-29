@@ -31,7 +31,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -105,7 +105,7 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -131,7 +131,11 @@ hr {
 
 }
 
-
+.link-3{
+    color: green;
+     font-weight: bold;
+     padding-left:0rem;
+}
 
 .ow {
     background-color: var(--off-white);
@@ -163,6 +167,6 @@ hr {
 transition: transform 0.4s ;
 }
 .zoom:hover{
-    transform: scale(1.5);
+    transform: scale(1.3);
 }
 
