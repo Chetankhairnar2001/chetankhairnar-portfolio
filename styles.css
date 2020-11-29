@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap');
+
 
 :root {
     --primary-color:#2DD4BF;
@@ -9,7 +11,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 0px
+    margin: 0px auto;
+    max-width: 800px;
 }
 
 hr {
@@ -78,6 +81,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-family: 'Roboto Slab', serif;
 }
 
 .navigation .nav-pills {
@@ -127,6 +131,8 @@ hr {
 
 }
 
+
+
 .ow {
     background-color: var(--off-white);
 }
@@ -146,8 +152,8 @@ hr {
 }
 
 .footer .footer-header {
-    font-weight: bold;
     font-size: large;
+    font-family: 'Roboto Slab', serif;
 }
 
 .footer ul {
@@ -159,3 +165,4 @@ transition: transform 0.4s ;
 .zoom:hover{
     transform: scale(1.5);
 }
+
