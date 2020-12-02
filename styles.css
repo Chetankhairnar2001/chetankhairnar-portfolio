@@ -31,7 +31,7 @@ hr {
 }
 
 .container-center {
-    max-width: 720px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -132,7 +132,7 @@ h3{
     padding: 2rem;
 }
 
-.section h1,.section p {
+.section h1 {
     text-align: center;
 }
 
