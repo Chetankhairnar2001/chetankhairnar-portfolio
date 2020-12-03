@@ -216,7 +216,7 @@ ol li{
         text-shadow: 0 0 10px yellow;
     } */
     0%,18%,20%,50%,60%,80%,90%,92%{
-        color: rgb(35, 35, 172);
+        color:#2DD4BF;
         text-shadow: none;
     }
     19%,22%,30%,52%,65%,80.1%,91%,100%{
