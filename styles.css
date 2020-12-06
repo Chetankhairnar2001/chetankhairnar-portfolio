@@ -125,6 +125,9 @@ h3{
 .hero .hero-heading .heading-inverted {
     color: var(--secondary-color);
 }
+.hero h3{
+    font-family: 'Roboto Slab', serif;
+}
 
 /** sections **/
 
