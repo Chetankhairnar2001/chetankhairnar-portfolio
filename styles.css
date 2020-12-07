@@ -154,7 +154,7 @@ h3{
 
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -168,6 +168,7 @@ h3{
     font-size: large;
     /* font-family: 'Roboto Slab', serif; */
     text-align: left;
+    
 }
 
 .footer ul {
@@ -175,11 +176,11 @@ h3{
 }
 
 .social-links{
-    text-align: left;
+    text-align:left;
 }
-.social-links a{
+/* .social-links a{
     padding-left: 4rem;
-}
+} */
 
 .zoom{
 transition: transform 0.4s ;
@@ -198,33 +199,15 @@ ol li{
    animation: animate 6s linear infinite;
 }
 @keyframes animate {
-    /* 0%{
-        color: rgb(72, 235, 72);
-        text-shadow: 0 0 8px yellow;
-    }
-    25%{
-        color: darkgreen;
-        text-shadow: 0 0 10px yellow;
-    }
-    50%{
-        color: lightgreen;
-        text-shadow: 0 0 30px red;
-    }
-    75%{
-        color: darkgreen;
-        text-shadow: 0 0 20px rgb(221, 115, 115);
-    }
-    100%{
-        color: black;
-        text-shadow: 0 0 10px yellow;
-    } */
+   
     0%,18%,20%,50%,60%,80%,90%,92%{
         color:#2DD4BF;
-        text-shadow: none;
+        text-shadow: 0 0 10px rgb(232, 245, 220);
     }
     19%,22%,30%,52%,65%,80.1%,91%,100%{
         color: white;
-        text-shadow: 0 0 10px rgb(210, 235, 187),
+        text-shadow:
+
          0 0 10px #2DD4BF;
     }
 
