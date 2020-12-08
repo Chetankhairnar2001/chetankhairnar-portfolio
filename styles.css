@@ -38,11 +38,10 @@ hr {
 
 /** links **/
 .link {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    /* margin-top: 5rem;
-    margin-bottom: 1rem; */
+    padding: 0.5rem 0.6rem;
+   
 }
 
 .link-primary {
