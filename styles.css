@@ -124,7 +124,7 @@ h3{
 }
 
 .hero .hero-heading .heading-inverted {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 .hero h3{
     font-family: 'Roboto Slab', serif;
