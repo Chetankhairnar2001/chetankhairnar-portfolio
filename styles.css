@@ -3,7 +3,8 @@
 
 
 :root {
-    --primary-color:#2DD4BF;
+    /* --primary-color:#2DD4BF; */
+    --primary-color:#14B8A6;
     --secondary-color:purple;
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
@@ -12,7 +13,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px auto;
-    max-width: 900px;
+    max-width: 1024px;
 }
 
 hr {
@@ -31,7 +32,7 @@ hr {
 }
 
 .container-center {
-    max-width: 800px;
+    max-width: 1024px;
     margin: auto;
 }
 
@@ -111,7 +112,7 @@ h3{
 }
 
 .hero .hero-img {
-    max-width: 500px;
+    max-width: 600px;
     display: block;
     margin: auto;
 }
@@ -167,7 +168,7 @@ h3{
 .footer .footer-header {
     font-size: large;
     /* font-family: 'Roboto Slab', serif; */
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -176,7 +177,7 @@ h3{
 }
 
 .social-links{
-    text-align:left;
+    text-align:center;
 }
 /* .social-links a{
     padding-left: 4rem;
@@ -201,7 +202,7 @@ ol li{
 @keyframes animate {
    
     0%,18%,20%,50%,60%,80%,90%,92%{
-        color:#2DD4BF;
+        color:#14B8A6;
         text-shadow: 0 0 10px rgb(232, 245, 220);
     }
     19%,22%,30%,52%,65%,80.1%,91%,100%{
