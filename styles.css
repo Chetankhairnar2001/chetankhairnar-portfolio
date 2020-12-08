@@ -112,7 +112,7 @@ h3{
 }
 
 .hero .hero-img {
-    max-width: 600px;
+    max-width: 80%;
     display: block;
     margin: auto;
 }
