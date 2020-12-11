@@ -86,8 +86,9 @@ h3{
 }
 
 .navigation .nav-brand {
-    font-weight: bold;
+    font-weight: bolder;
     font-family: 'Roboto Slab', serif;
+    color:var(--secondary-color);
 }
 
 .navigation .nav-pills {
@@ -156,7 +157,8 @@ h3{
     background-color: var(--primary-color);
     padding: 2rem 2rem;
     text-align: center;
-    color: white;
+    color: var(--secondary-color);
+    font-weight: bolder;
     border-top-right-radius: 1rem;
 }
 
@@ -188,7 +190,7 @@ ol li{
 .glowit{ 
     position: relative;
    /* margin: 50%; */
-   animation: animate 6s linear infinite;
+   animation: animate 4s linear infinite;
 }
 @keyframes animate {
    
@@ -198,9 +200,7 @@ ol li{
     }
     19%,22%,30%,52%,65%,80.1%,91%,100%{
         color: white;
-        text-shadow:
-
-         0 0 10px #2DD4BF;
+        text-shadow:  0 0 10px #2DD4BF;
     }
 
 }
