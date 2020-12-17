@@ -5,7 +5,7 @@
 :root {
     /* --primary-color:#2DD4BF; */
     --primary-color:#14B8A6;
-    --secondary-color:purple;
+    --secondary-color:rgb(109, 42, 109);
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
@@ -13,7 +13,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px auto;
-    max-width: 1024px;
+    max-width: 950px;
 }
 
 hr {
@@ -59,6 +59,7 @@ hr {
 }
 h3{
     text-align: center;
+    color:var(--secondary-color);
 }
 /** look into BEM naming convention for CSS **/
 
@@ -108,7 +109,7 @@ h3{
 .hero {
     padding: 2rem;
     padding-top: 5rem;
-
+ 
 }
 
 .hero .hero-img {
@@ -121,11 +122,26 @@ h3{
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
+    /* for making a animation*/
+    animation: typing 4s steps(40) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+@keyframes typing{
+    0%{
+        width: 0ch;  /* ch means character*/  
+    }
+    100%{
+        width:40ch ;   /*index heading contains 40 characters*/
+    }
 }
 
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
 .hero h3{
     font-family: 'Roboto Slab', serif;
 }
@@ -187,21 +203,5 @@ ol li{
     margin-bottom:4rem;
 } 
 
-.glowit{ 
-    position: relative;
-   /* margin: 50%; */
-   animation: animate 4s linear infinite;
-}
-@keyframes animate {
-   
-    0%,18%,20%,50%,60%,80%,90%,92%{
-        color:#14B8A6;
-        text-shadow: 0 0 10px rgb(232, 245, 220);
-    }
-    19%,22%,30%,52%,65%,80.1%,91%,100%{
-        color: white;
-        text-shadow:  0 0 10px #2DD4BF;
-    }
 
-}
 
