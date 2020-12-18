@@ -190,9 +190,9 @@ h3{
 }
 
 .footer .link {
-    color: white
+    color: white;
+    padding: 0rem 2rem;
 }
-
 .footer .footer-header {
     font-size: large;
     /* font-family: 'Roboto Slab', serif; */
