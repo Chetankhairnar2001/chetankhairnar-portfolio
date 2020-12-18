@@ -122,11 +122,16 @@ h3{
     text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
-    /* for making a animation*/
-    animation: typing 4s steps(40) infinite;
-    overflow: hidden;
-    white-space: nowrap;
-    
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.typeit{
+     /* for making a animation*/
+     max-width: 100%;
+     animation: typing 4s  infinite;
+     overflow: hidden;
+     white-space: nowrap;
+     
 }
 
 @keyframes typing{
