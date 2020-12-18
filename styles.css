@@ -143,6 +143,12 @@ h3{
     }
 }
 
+@media (max-width:426px){
+    .hero .hero-heading {
+        font-size: 1rem;
+    }
+}
+
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
