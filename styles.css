@@ -146,8 +146,7 @@ h3{
 @media (max-width:426px){
     .hero .hero-heading {
         font-size: 1rem;
-        text-align: left;
-       
+        text-align: left;     
     }
 }
 
@@ -194,6 +193,11 @@ h3{
 .footer .link {
     color: white;
     padding: 0rem 2rem;
+}
+@media (max-width:426px){
+    .footer .link{
+        padding: 0rem 1rem;
+    }
 }
 .footer .footer-header {
     font-size: large;
