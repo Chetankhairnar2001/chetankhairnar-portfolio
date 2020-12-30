@@ -136,10 +136,10 @@ h3{
 
 @keyframes typing{
     0%{
-        width: 0ch;  /* ch means character*/  
+        width: 0%;  /* ch means character   */
     }
     100%{
-        width:40ch ;   /*index heading contains 40 characters*/
+        width:100% ;   /*index heading contains 40 characters*/
     }
 }
 
