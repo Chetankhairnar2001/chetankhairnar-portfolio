@@ -109,7 +109,6 @@ h3{
 .hero {
     padding: 2rem;
     padding-top: 5rem;
- 
 }
 
 .hero .hero-img {
@@ -117,6 +116,7 @@ h3{
     display: block;
     margin: auto;
 }
+
 
 .hero .hero-heading {
     text-align: center;
@@ -219,6 +219,19 @@ ol li{
     margin-top:3rem;
     margin-bottom:4rem;
 } 
+
+/** blog images **/
+
+.blogs {
+    padding: 2rem;
+}
+
+.blogs .blogs-img {
+    max-width: 55%;
+    display: block;
+    margin: auto;
+    border-radius: 1rem;
+}
 
 
 
