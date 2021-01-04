@@ -124,6 +124,7 @@ h3{
     color: var(--dark-gray);
     font-size: 2rem;
     font-weight: bolder;
+    margin: auto;
 }
 .typeit{
      /* for making a animation*/
