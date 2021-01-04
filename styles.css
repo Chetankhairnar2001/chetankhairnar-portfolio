@@ -210,6 +210,11 @@ h3{
     padding-inline-start: 0px;
 }
 
+.footer img:hover{
+    transform: scale(1.1);
+    box-shadow:3px 3px 1px gray;
+}
+
 .social-links{
     text-align:center;
 }
