@@ -147,7 +147,7 @@ h3{
 @media (max-width:426px){
     .hero .hero-heading {
         font-size: 1rem;
-        text-align: left;     
+        /* text-align: left;      */
     }
 }
 
