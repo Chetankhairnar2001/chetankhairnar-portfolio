@@ -14,9 +14,26 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px auto;
     max-width: 950px;
+}
 
-    /*dark mode*/
-    /* filter:invert(0) hue-rotate(180deg); */
+.dark-theme{
+    --primary-color:rgb(22, 65, 22);
+    --secondary-color:rgb(230, 161, 161);
+    --off-white: rgb(122, 118, 118);
+    --dark-gray: #586885;
+    --darkit:rgb(236, 236, 182);
+
+    --headings:rgb(245, 242, 238);
+}
+
+#icon{
+    width: 36px;
+    float: right;
+    cursor: grab;
+}
+
+.nav-brand{
+    padding-bottom: 1rem;
 }
 
 hr {
@@ -199,6 +216,13 @@ h3{
     background-color: var(--off-white);
 }
 
+.whiteit{
+    background-color: var(--darkit);
+}
+
+.headit {
+    background-color: var(--headings);
+}
 
 /** footers **/
 
