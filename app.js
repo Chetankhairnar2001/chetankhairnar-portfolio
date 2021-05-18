@@ -2,6 +2,18 @@
 // when u refresh your page earlier the color used to come back to its root vale
 //so now use  localstorage it will save all changes in browser so works well
 
+icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src= "images/sun.png";
+        localStorage.setItem("theme","dark");
+    }
+    else{
+    icon.src ="images/moon.png";
+    localStorage.setItem("theme","light");
+}
+}
+
     if(localStorage.getItem("theme")== null){
         localstorage.setItem("theme","light");
     }
@@ -17,14 +29,3 @@
         document.body.classList.add("dark-theme");
     }
 
-    icon.onclick = function(){
-        document.body.classList.toggle("dark-theme");
-        if(document.body.classList.contains("dark-theme")){
-            icon.src= "images/sun.png";
-            localStorage.setItem("theme","dark");
-        }
-        else{
-        icon.src ="images/moon.png";
-        localStorage.setItem("theme","light");
-    }
-    }
